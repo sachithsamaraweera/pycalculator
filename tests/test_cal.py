@@ -4,7 +4,6 @@ import sys
 # Add the parent directory (project root) to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-# Now you can import your modules using absolute imports
 from calculator import add
 
 def test_add_positive_numbers():
